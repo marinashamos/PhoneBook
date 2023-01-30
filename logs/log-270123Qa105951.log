@@ -1,0 +1,117 @@
+10:59:53.265  INFO  manager.ApplicationManager - All tests star in Chrome Browser
+10:59:54.965  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+10:59:54.984  INFO  tests.TestBase - The name of starts method is --->loginSuccess
+10:59:54.985  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:00:00.035  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:00:00.037  INFO  manager.ListenerWD - List size is --> 0
+11:00:00.038  INFO  tests.TestBase - Login with valid data: email: dsa@gmail.com & password: Qq12345$
+11:00:00.039  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/l']
+11:00:05.094  INFO  manager.ListenerWD - They have a 'problem'
+11:00:05.095  INFO  manager.ListenerWD - **********************
+11:00:05.095  INFO  manager.ListenerWD - Method method-->findElement
+11:00:05.095  INFO  manager.ListenerWD - **********************
+11:00:05.096  INFO  manager.ListenerWD - InvocationTargetException getTargetException() org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a[href='/l']"}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db213885d28a13e9a0f8fdf50a46a08e, findElement {using=css selector, value=a[href='/l']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Marina\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50521/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: db213885d28a13e9a0f8fdf50a46a08e
+11:00:05.097  INFO  manager.ListenerWD - **********************
+11:00:05.097  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (db213885d28a13e9a0f8fdf50a46a08e)
+11:00:05.097  INFO  manager.ListenerWD - **********************
+11:00:05.101  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-84.png
+11:00:05.378  INFO  tests.TestBase - The name of starts method is --->loginSuccessNew
+11:00:05.378  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:00:10.436  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:00:10.436  INFO  manager.ListenerWD - List size is --> 0
+11:00:10.437  INFO  tests.TestBase - Login with valid data: 'email: cxz@gmail.com & password: Ss12345$'
+11:00:10.438  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/l']
+11:00:15.480  INFO  manager.ListenerWD - They have a 'problem'
+11:00:15.480  INFO  manager.ListenerWD - **********************
+11:00:15.481  INFO  manager.ListenerWD - Method method-->findElement
+11:00:15.481  INFO  manager.ListenerWD - **********************
+11:00:15.481  INFO  manager.ListenerWD - InvocationTargetException getTargetException() org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a[href='/l']"}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db213885d28a13e9a0f8fdf50a46a08e, findElement {using=css selector, value=a[href='/l']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Marina\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50521/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: db213885d28a13e9a0f8fdf50a46a08e
+11:00:15.482  INFO  manager.ListenerWD - **********************
+11:00:15.483  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (db213885d28a13e9a0f8fdf50a46a08e)
+11:00:15.483  INFO  manager.ListenerWD - **********************
+11:00:15.484  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-263.png
+11:00:15.732  INFO  tests.TestBase - The name of starts method is --->loginUnregisterUser
+11:00:15.733  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:00:20.773  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:00:20.774  INFO  manager.ListenerWD - List size is --> 0
+11:00:20.775  INFO  tests.TestBase - Login with valid data of unregistered user: 'email: mimi@gmail.com & invalid password: 'Tt12345$'
+11:00:20.775  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/l']
+11:00:25.823  INFO  manager.ListenerWD - They have a 'problem'
+11:00:25.823  INFO  manager.ListenerWD - **********************
+11:00:25.823  INFO  manager.ListenerWD - Method method-->findElement
+11:00:25.823  INFO  manager.ListenerWD - **********************
+11:00:25.824  INFO  manager.ListenerWD - InvocationTargetException getTargetException() org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a[href='/l']"}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db213885d28a13e9a0f8fdf50a46a08e, findElement {using=css selector, value=a[href='/l']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Marina\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50521/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: db213885d28a13e9a0f8fdf50a46a08e
+11:00:25.825  INFO  manager.ListenerWD - **********************
+11:00:25.826  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (db213885d28a13e9a0f8fdf50a46a08e)
+11:00:25.826  INFO  manager.ListenerWD - **********************
+11:00:25.826  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-64.png
+11:00:26.095  INFO  tests.TestBase - The name of starts method is --->loginWrongEmail
+11:00:26.096  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:00:31.148  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:00:31.149  INFO  manager.ListenerWD - List size is --> 0
+11:00:31.150  INFO  tests.TestBase - Login with invalid email: 'dsagmail.com' & valid password: Qq12345$
+11:00:31.151  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/l']
+11:00:36.186  INFO  manager.ListenerWD - They have a 'problem'
+11:00:36.186  INFO  manager.ListenerWD - **********************
+11:00:36.186  INFO  manager.ListenerWD - Method method-->findElement
+11:00:36.186  INFO  manager.ListenerWD - **********************
+11:00:36.186  INFO  manager.ListenerWD - InvocationTargetException getTargetException() org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a[href='/l']"}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db213885d28a13e9a0f8fdf50a46a08e, findElement {using=css selector, value=a[href='/l']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Marina\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50521/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: db213885d28a13e9a0f8fdf50a46a08e
+11:00:36.187  INFO  manager.ListenerWD - **********************
+11:00:36.187  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (db213885d28a13e9a0f8fdf50a46a08e)
+11:00:36.187  INFO  manager.ListenerWD - **********************
+11:00:36.188  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-440.png
+11:00:36.492  INFO  tests.TestBase - The name of starts method is --->loginWrongPassword
+11:00:36.492  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:00:41.554  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:00:41.554  INFO  manager.ListenerWD - List size is --> 0
+11:00:41.554  INFO  tests.TestBase - Login with valid email: dsa@gmail.com & invalid password: 'Qq12'
+11:00:41.554  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/l']
+11:00:46.595  INFO  manager.ListenerWD - They have a 'problem'
+11:00:46.595  INFO  manager.ListenerWD - **********************
+11:00:46.595  INFO  manager.ListenerWD - Method method-->findElement
+11:00:46.595  INFO  manager.ListenerWD - **********************
+11:00:46.595  INFO  manager.ListenerWD - InvocationTargetException getTargetException() org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a[href='/l']"}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db213885d28a13e9a0f8fdf50a46a08e, findElement {using=css selector, value=a[href='/l']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Marina\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50521/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: db213885d28a13e9a0f8fdf50a46a08e
+11:00:46.595  INFO  manager.ListenerWD - **********************
+11:00:46.595  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (db213885d28a13e9a0f8fdf50a46a08e)
+11:00:46.595  INFO  manager.ListenerWD - **********************
+11:00:46.595  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-668.png

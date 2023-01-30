@@ -1,0 +1,17 @@
+09:21:59.249  INFO  manager.ApplicationManager - All tests star in Chrome Browser
+09:22:00.653  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+09:22:00.710  INFO  tests.TestBase - The name of starts method is --->addContactSuccessAllFields
+09:22:06.233  INFO  tests.TestBase - User is logged
+09:22:06.274  INFO  tests.TestBase - Tests start with data : Contact(name=Marina1007, lastName=Shamos, email=marina1007@gmail.com, address=Canberra, phone=77777771007, description=Friend)
+09:22:10.318  INFO  tests.TestBase - Checked, if a contact was created by name,phone number and email
+09:22:10.328  INFO  tests.TestBase - The name of starts method is --->addContactSuccessRequiredFields
+09:22:10.344  INFO  tests.TestBase - Tests start with data : Contact(name=Leo1812, lastName=Shamos, email=leo1812@gmail.ru, address=NY, phone=575757571812, description=null)
+09:22:13.275  INFO  tests.TestBase - Checked, if a contact was created by name,phone number and email
+09:22:13.277  INFO  tests.TestBase - The name of starts method is --->addNewContactWrongAddress
+09:22:14.319  INFO  tests.TestBase - The name of starts method is --->addNewContactWrongEmail
+09:22:15.772  INFO  tests.TestBase - The name of starts method is --->addNewContactWrongLastName
+09:22:16.724  INFO  tests.TestBase - Status code 400, message not received: last name must not be empty => Bug report
+09:22:16.726  INFO  tests.TestBase - The name of starts method is --->addNewContactWrongName
+09:22:16.736  INFO  tests.TestBase - Tests start with data : Contact(name=null, lastName=Shamos, email=marina@gmail.com, address=Canberra, phone=777777711111, description=wrong name)
+09:22:27.527  INFO  tests.TestBase - Status code 400, message not received: mane must not be empty => Bug report
+09:22:27.530  INFO  tests.TestBase - The name of starts method is --->addNewContactWrongPhone

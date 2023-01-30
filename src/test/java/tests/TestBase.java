@@ -15,7 +15,7 @@ public class TestBase {
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
     @BeforeMethod
-    public void  setNameMethod(Method m){
+    public void  getNameMethod(Method m){
 
         logger.info("The name of starts method is --->"+m.getName());
     }

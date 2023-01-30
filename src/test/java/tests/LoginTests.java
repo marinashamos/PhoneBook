@@ -1,10 +1,12 @@
 package tests;
 
+        import manager.ListenerTNG;
         import org.slf4j.Logger;
         import org.testng.Assert;
         import org.testng.annotations.BeforeMethod;
+        import org.testng.annotations.Listeners;
         import org.testng.annotations.Test;
-
+@Listeners(ListenerTNG.class)
 public class LoginTests extends TestBase{
 
     @BeforeMethod
