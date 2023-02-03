@@ -1,0 +1,5 @@
+20:02:27.461  INFO  manager.ApplicationManager - All tests star in Chrome Browser
+20:02:29.318  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+20:02:29.328  INFO  manager.ListenerTNG - onStart---Gradle test
+20:02:29.344  INFO  manager.ListenerTNG - onTestFailure---loginSuccessModelFormFile
+20:02:29.345  INFO  manager.ListenerTNG - onFinish---Gradle test

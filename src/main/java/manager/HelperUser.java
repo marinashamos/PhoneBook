@@ -18,6 +18,8 @@ public class HelperUser extends HelperBase {
     }
 
     public void openLoginRegistrationForm() {
+        new WebDriverWait(wd, Duration.ofSeconds(3))
+                .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("a[href='/login']"))));
 
         click(By.cssSelector("a[href='/login']"));
         //click(By.cssSelector("a[href='/l']"));
@@ -65,9 +67,9 @@ public class HelperUser extends HelperBase {
         Alert alert = new WebDriverWait(wd, Duration.ofSeconds(9))
                 .until(ExpectedConditions.alertIsPresent());
 
-
         String text = alert.getText();
-        System.out.println(text);
+        System.out.println("isErrorMessageDisplayed + " + text + " \nMessage: " + message);
+
         alert.accept();
         return text.contains(message);
     }

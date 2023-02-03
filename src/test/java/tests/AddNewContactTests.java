@@ -17,8 +17,7 @@ public class AddNewContactTests extends TestBase {
 
         }
     }
-
-    @Test
+    @Test(groups = {"smoke"})
     public void addContactSuccessAllFields() {
         Random random = new Random();
         int i = random.nextInt(100) + 1000;
@@ -158,8 +157,8 @@ public class AddNewContactTests extends TestBase {
 
         app.helperContact().openContactForm();
         app.helperContact().fillContactForm(contact);
-
         app.helperContact().submitContactForm();
+
         Assert.assertTrue(app.helperContact().isAddPageStillDisplayed());
         Assert.assertTrue(app.getHelperUser().isErrorMessageDisplayed("Phone not valid: Phone number must contain only digits! And length min 10, max 15"));
 
@@ -183,5 +182,4 @@ public class AddNewContactTests extends TestBase {
         Assert.assertTrue(app.getHelperUser().isErrorMessageDisplayed("Email not valid: must be a well-formed email address"));
 
     }
-
 }
