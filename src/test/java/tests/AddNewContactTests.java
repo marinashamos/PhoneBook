@@ -10,7 +10,7 @@ import java.util.Random;
 
 public class AddNewContactTests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (!app.getHelperUser().isLogged()) {
             app.getHelperUser().login(User.builder().email("dsa@gmail.com").password("Qq12345$").build());

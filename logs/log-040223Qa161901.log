@@ -1,0 +1,11 @@
+16:19:02.754  INFO  tests.TestBase - The name of starts method is --->addContactSuccessAllFields
+16:19:02.759  INFO  tests.TestBase - The name of starts method is --->addContactSuccessRequiredFields
+16:19:02.760  INFO  tests.TestBase - The name of starts method is --->addNewContactWrongAddress
+16:19:02.761  INFO  tests.TestBase - The name of starts method is --->addNewContactWrongEmail
+16:19:02.762  INFO  tests.TestBase - The name of starts method is --->addNewContactWrongLastName
+16:19:02.763  INFO  tests.TestBase - The name of starts method is --->addNewContactWrongName
+16:19:02.764  INFO  tests.TestBase - The name of starts method is --->addNewContactWrongPhone
+16:19:02.766  INFO  tests.TestBase - The name of starts method is --->registrationSuccess
+16:19:02.768  INFO  tests.TestBase - The name of starts method is --->registrationUserAlreadyExists
+16:19:02.769  INFO  tests.TestBase - The name of starts method is --->registrationWrongEmail
+16:19:02.770  INFO  tests.TestBase - The name of starts method is --->registrationWrongPassword

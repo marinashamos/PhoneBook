@@ -1,0 +1,38 @@
+19:00:29.903  INFO  manager.ApplicationManager - All tests star in Chrome Browser
+19:00:31.801  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+19:00:31.824  INFO  tests.TestBase - The name of starts method is --->addContactSuccessAllFields
+19:00:31.842  INFO  tests.TestBase - Tests start with data : Contact(name=Marina1062, lastName=Shamos, email=marina1062@gmail.com, address=Canberra, phone=77777771062, description=Friend)
+19:00:31.843  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/add']
+19:00:36.903  INFO  manager.ListenerWD - We have a 'problem'
+19:00:36.903  INFO  manager.ListenerWD - **********************
+19:00:36.904  INFO  manager.ListenerWD - Method method-->findElement
+19:00:36.905  INFO  manager.ListenerWD - **********************
+19:00:36.906  INFO  manager.ListenerWD - InvocationTargetException getTargetException() org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a[href='/add']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [497439dd450a165ce2d567425a2ee6de, findElement {using=css selector, value=a[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Marina\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51801}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51801/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 497439dd450a165ce2d567425a2ee6de
+19:00:36.907  INFO  manager.ListenerWD - **********************
+19:00:36.907  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (497439dd450a165ce2d567425a2ee6de)
+19:00:36.907  INFO  manager.ListenerWD - **********************
+19:00:36.908  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-983.png
+19:00:37.177  INFO  tests.TestBase - The name of starts method is --->registrationSuccess
+19:00:37.178  INFO  tests.TestBase - Registration with valid data: 'random email: dsa@gmail.com & password: Qq12345$'
+19:00:37.179  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+19:00:37.197  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+19:00:37.216  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+19:00:37.227  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+19:00:37.260  INFO  manager.ListenerWD - Before find element --> By.name: email
+19:00:37.279  INFO  manager.ListenerWD - After find element --> By.name: email
+19:00:37.363  INFO  manager.ListenerWD - Before find element --> By.name: password
+19:00:37.376  INFO  manager.ListenerWD - After find element --> By.name: password
+19:00:37.438  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+19:00:37.450  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+19:00:37.473  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+19:00:38.545  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+19:00:38.545  INFO  manager.ListenerWD - List size is --> 1
+19:00:38.548  INFO  tests.TestBase - registration success

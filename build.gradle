@@ -47,7 +47,5 @@ task qa(type :Test){
         systemProperty 'browser', "${browser}"
     }
 }
-
-
 //suites 'src/test/resources/testng.xml'
 
