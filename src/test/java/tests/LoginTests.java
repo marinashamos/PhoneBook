@@ -16,7 +16,7 @@ import java.util.List;
 @Listeners(ListenerTNG.class)
 public class LoginTests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
@@ -83,7 +83,7 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(app.getHelperUser().isLogged());
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void loginWrongEmail() {
         logger.info("Login with invalid email: 'dsagmail.com' & valid password: Qq12345$");
 

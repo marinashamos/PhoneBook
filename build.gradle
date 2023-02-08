@@ -27,11 +27,18 @@ test {
 }
 task qa36(type :Test){
     useTestNG(){
-        suites 'src/test/resources/testng.xml'
+        def groups = System.getProperty('groups')
+        if (groups != null) {
+            includeGroups groups
+        }
+
+        suites 'src/test/resources/testnew.xml'
     }
 }
 task qa(type :Test){
     useTestNG(){
+
+
         def suite = System.getProperty('suite', '')
 
         if (suite.equals('quick')) {

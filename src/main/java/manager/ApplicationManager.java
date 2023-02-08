@@ -32,6 +32,8 @@ import java.time.Duration;
                 logger.info("All tests star in FireFox Browser");
             } else if (browser.equals(Browser.IE.browserName())) {
                 wd = new InternetExplorerDriver();
+            }else if (browser.equals(Browser.EDGE.browserName())) {
+                wd = new FirefoxDriver();
             }
 
             WebDriverListener listener = new ListenerWD();
