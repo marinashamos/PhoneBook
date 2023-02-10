@@ -5,7 +5,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.util.Random;
-
+//for jenkins
 public class RegistrationTests extends TestBase {
 
     @BeforeMethod(alwaysRun = true)
